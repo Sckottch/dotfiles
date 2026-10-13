@@ -1,0 +1,10 @@
+hl.workspace_rule({ workspace = "name:gaming", monitor = MONITORS.MONITOR1 })
+hl.workspace_rule({ workspace = "1", monitor = MONITORS.MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "3", monitor = MONITORS.MONITOR1 })
+hl.workspace_rule({ workspace = "4", monitor = MONITORS.MONITOR1 })
+hl.workspace_rule({ workspace = "5", monitor = MONITORS.MONITOR1 })
+
+hl.workspace_rule({ workspace = "2", monitor = MONITORS.MONITOR2, persistent = true })
+hl.workspace_rule({ workspace = "6", monitor = MONITORS.MONITOR2 })
+hl.workspace_rule({ workspace = "7", monitor = MONITORS.MONITOR2 })
+hl.workspace_rule({ workspace = "8", monitor = MONITORS.MONITOR2 })

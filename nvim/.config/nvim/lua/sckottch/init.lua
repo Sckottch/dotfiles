@@ -1,0 +1,6 @@
+require("sckottch.remap")
+require("sckottch.options")
+require("sckottch.autocmds")
+require("sckottch.config.lazy")
+require("sckottch.thin_colorcolumn")
+vim.cmd.colorscheme("hanekawa_tsubasa")

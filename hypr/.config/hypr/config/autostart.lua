@@ -1,0 +1,5 @@
+hl.on("hyprland.start", function()
+    hl.exec_cmd("systectl --user start hyprpolkitagent")
+    hl.exec_cmd("noctalia")
+    hl.exec_cmd("fcitx -d")
+end)

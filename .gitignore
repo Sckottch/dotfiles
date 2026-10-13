@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------
+# fish
+# ---------------------------------------------------------------
+# Variáveis universais: estado gerado pelo fish (muda o tempo todo,
+# específico da máquina). Configure via config.fish / conf.d.
+fish/.config/fish/fish_variables
+
+# (Opcional) arquivos instalados pelo fisher — podem ser recriados
+# com `fisher update` a partir do fish_plugins. Descomente se quiser
+# versionar só o fish_plugins.
+# fish/.config/fish/functions/fisher.fish
+# fish/.config/fish/completions/fisher.fish
+# fish/.config/fish/functions/_pure_*.fish
+# fish/.config/fish/functions/fish_prompt.fish
+# fish/.config/fish/functions/fish_mode_prompt.fish
+# fish/.config/fish/functions/fish_title.fish
+# fish/.config/fish/conf.d/pure.fish
+# fish/.config/fish/conf.d/_pure_init.fish
+
+# ---------------------------------------------------------------
+# nvim
+# ---------------------------------------------------------------
+# lazy-lock.json DEVE ser versionado (fixa as versões dos plugins).
+# Arquivos de estado que podem aparecer dentro da config:
+nvim/.config/nvim/plugin/packer_compiled.lua
+nvim/.config/nvim/.luarc.json
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+tags
+
+# ---------------------------------------------------------------
+# Lixo geral
+# ---------------------------------------------------------------
+*.log
+*.bak
+*.tmp
+.DS_Store
